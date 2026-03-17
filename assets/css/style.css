@@ -1,0 +1,100 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.brand-primary {
+    color: #0A2540;
+}
+
+.bg-primary-dark {
+    background-color: #0A2540;
+}
+
+.btn-primary-custom {
+    background-color: #00D4FF;
+    color: #0A2540;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #00b8e6;
+    color: #0A2540;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    background: #fff;
+    transition: transform 0.2s;
+}
+
+.score-card {
+    background: linear-gradient(135deg, #0A2540 0%, #1a426e 100%);
+    color: white;
+    text-align: center;
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+.score-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 8px solid #00D4FF;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.textarea-custom {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 1rem;
+    font-size: 1rem;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.02);
+}
+
+.textarea-custom:focus {
+    border-color: #0A2540;
+    box-shadow: 0 0 0 0.2rem rgba(10, 37, 64, 0.25);
+}
+
+.badge-readiness {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+
+.badge-ready { background-color: #28a745; color: white; }
+.badge-improving { background-color: #ffc107; color: #212529; }
+.badge-not-ready { background-color: #dc3545; color: white; }
+
+.section-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: #00D4FF;
+}
+
+.list-group-custom .list-group-item {
+    border: none;
+    padding-left: 2rem;
+    position: relative;
+    background-color: transparent;
+}
+
+.list-group-custom .list-group-item::before {
+    content: "•";
+    position: absolute;
+    left: 0.5rem;
+    color: #0A2540;
+    font-weight: bold;
+}
