@@ -1,6 +1,5 @@
 # CVWISE — Smart Resume Analyzer & Job Readiness Tool
 
-> "Build a Resume That Gets You Hired."
 
 CVWISE is a modern, SaaS-style smart resume analysis platform designed to evaluate user resumes, provide a score out of 100, identify strengths and weaknesses, and offer actionable suggestions to improve job readiness.
 
